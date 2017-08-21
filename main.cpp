@@ -1,17 +1,36 @@
 #include <stdio.h>
-#include <math.h>
+#include <string.h>
+#include <stdlib.h>
 
-int findComplement(int num) {
-    for (int i = 1; i <= 32; ++i) {
-        if(num <= pow(2,i) - 1) {
-            return num ^ ((int)pow(2,i) - 1);
+char* reverseWords(char* s) {
+    char *result = (char *)malloc(strlen(s));
+    const char * split = " ";
+    char *p = strtok(s, split);
+    while (p != NULL) {
+        char *start = p;
+        char *end = p + strlen(p) - 1;
+        while (p < end) {
+            *p ^= *end;
+            *end ^= *p;
+            *p ^= *end;
+            p ++;
+            end --;
         }
+        strcat(result, start);
+        strcat(result, " ");
+        p = strtok(NULL, " ");
     }
+    char *resulta = result;
+    while(*++result);
+    result--;
+    *result = 0;
+    return resulta;
 }
 
 int main() {
-    int i = findComplement(1);
-    printf("%d",i);
+    char str[] = "Let's take LeetCode contest";
+    char * result = reverseWords(str);
+    printf(result);
     return 0;
 }
 
