@@ -24,9 +24,13 @@ There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
 
 A为根节点，DFS会从A节点开始，一直遍历到叶子节点，再返回到中间节点，判断中间节点是否有未遍历的节点，有则遍历，没有则继续返回到上一层。知道所有节点都遍历完毕。
 
-### Swift解法🐌
+因此，动图遍历得到的结果是：
 
-首先，我的解法：有点无奈，击败了LeetCode 0%的解题者。思路上没错，但实现上有问题。`findPath`方法是用来遍历节点，找到节点所能到达的下一个节点，然后递归调用去重复找路径的工作。每调用一次就创建一个数组。
+`A - B - D - E - H - F - G - C`
+
+### Swift解法
+
+首先，我的解法🐌：有点无奈，击败了LeetCode 0%的解题者。思路上没错，但实现上有问题。`findPath`方法是用来遍历节点，找到节点所能到达的下一个节点，然后递归调用去重复找路径的工作。每调用一次就创建一个数组。
 
 实现上有以下几个问题：
 
@@ -61,7 +65,7 @@ class Solution {
 
 下面的Swift答案是最快的实现方式，52ms，100%beats🕊：
 
-这种实现方式同样是DFS，但少了很多次赋值和最后一次遍历整个结果数组的操作。
+这种实现方式同样是DFS，使用inout修改入参的方式，减少了很多次赋值和最后一次遍历整个结果数组的操作。
 
 ```Swift
 class Solution {
@@ -87,10 +91,51 @@ class Solution {
 }
 ```
 
-在此基础上，我们有：
+### C++
 
-### C 、C++
+有了上面的启发，代码就变得好写很多了。
 
+```c++
+class Solution {
+public:
+    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
+        vector<vector<int>> ans;
+        dfs(0, graph, ans, {});
+        return ans;
+    }
 
+    void dfs(int current, vector<vector<int>>& graph, vector<vector<int>>& ans, vector<int> path) {
+        path.push_back(current);
+        if (current == graph.size() - 1) {
+            ans.push_back(path);
+        } else {
+            for (int i : graph[current]) {
+                dfs(i, graph, ans, path);
+            }
+        }
+    }
+};
+```
 
-### python3 
+### Python3 
+
+Python的解法和Swift解法大致相同，就不再赘述啦。beats 99.80%，所以，🕊~
+
+```Python
+class Solution:
+    def allPathsSourceTarget(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        ans = []
+        def dfs(current, path):
+        	if current==len(graph)-1:
+        		ans.append(path)
+        	else:
+        		for i in graph[current]: 
+        			dfs(i, path + [i])
+        dfs(0, [0])
+        return ans
+```
+
