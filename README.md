@@ -21,7 +21,8 @@ LeetCode的原因是笔者算法知识欠缺，代码也不够简洁。在完成
 
 已解题目如下：
 
-| No.  | Problem                                  | Algorithm | Note                                     |
-| ---- | ---------------------------------------- | --------- | ---------------------------------------- |
+| No.  | Problem                                                      | Algorithm | Note                                                         |
+| ---- | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
 | 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/) | DFS       | [Come on](https://github.com/objchris/LeetCodePearl/tree/master/797.All%20Paths%20From%20Source%20to%20Target) |
+| 929  | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |           | [Come on](https://github.com/objchris/LeetCodePearl/tree/master/929.Unique%20Email%20Addresses) |
 
