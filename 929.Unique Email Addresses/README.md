@@ -2,7 +2,7 @@
 
 [原题在此](https://leetcode.com/problems/unique-email-addresses/)
 
-简答描述一下题目：
+简单描述一下题目：
 
 email 地址由小写字母的 local name 、@ 、domain name 组成。
 
@@ -67,7 +67,7 @@ public:
 
 测试后提交，Er.... 有点慢：
 
-![Speed Grid](Photos/Speed Grid.png)
+![Speed Grid](Photos/SpeedGrid.png)
 
 参考一下排名靠前的代码，发现基本实现方式一致，不同的是 `set` 被替换成 `unordered_set` 。还有一处让人印象深刻的代码：
 

@@ -20,7 +20,7 @@ There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
 
 这道题涉及到一个我们都很熟悉的经典算法：深度优先搜索( *Depth First Search* )，简称DFS，借[raywenderlich](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Depth-First%20Search)一张动图来说明：
 
-![dfs](Picture/dfs.gif)
+![dfs](Photos/dfs.gif)
 
 A为根节点，DFS会从A节点开始，一直遍历到叶子节点，再返回到中间节点，判断中间节点是否有未遍历的节点，有则遍历，没有则继续返回到上一层。知道所有节点都遍历完毕。
 
