@@ -19,11 +19,12 @@
 * 🐎：50%-80%
 * 🕊️：80%以上
 
-已解题目如下：
+不会记录所有的题目，觉得有意思的如下：
 
-| No.  | Problem                                                      | Difficulty | Algorithm | Solution                                                     |
-| ---- | ------------------------------------------------------------ | ---------- | --------- | ------------------------------------------------------------ |
-| 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/) | Easy       | DFS       | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/797.All%20Paths%20From%20Source%20to%20Target) |
-| 921  | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium     | Stack     | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/921.Minimum%20Add%20to%20Make%20Parentheses%20Valid) |
-| 929  | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Medium     |           | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/929.Unique%20Email%20Addresses) |
+| No.  | Problem                                                      | Difficulty | Algorithm                  | Solution                                                     |
+| ---- | ------------------------------------------------------------ | ---------- | -------------------------- | ------------------------------------------------------------ |
+| 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/) | Easy       | DFS                        | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/797.All%20Paths%20From%20Source%20to%20Target) |
+| 861  | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium     | Bit Computing ( ^ and << ) | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/861.Score%20After%20Flipping%20Matrix) |
+| 921  | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium     | Stack                      | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/921.Minimum%20Add%20to%20Make%20Parentheses%20Valid) |
+| 929  | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Medium     |                            | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/929.Unique%20Email%20Addresses) |
 
