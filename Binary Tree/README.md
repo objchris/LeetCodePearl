@@ -1,9 +1,5 @@
 # 二叉树
 
-## 目录
-
-[TOC]
-
 ## 题目
 
 | No.  | Problem | Difficulty | Algorithm | Solution |
