@@ -1,14 +1,18 @@
 # 二叉树
 
+## 目录
+
+[TOC]
+
 ## 题目
 
-| No.  | Problem                                                      | Difficulty | Algorithm                  | Solution                                                     |
-| ---- | ------------------------------------------------------------ | ---------- | -------------------------- | ------------------------------------------------------------ |
-| 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium     |   BFS    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/Binary%20Tree/144.Binary%20Tree%20Preorder%20Traversal) |
-| 144  | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Medium     |   DFS    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/Binary%20Tree/144.Binary%20Tree%20Preorder%20Traversal) |
-| 94  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Medium     |   DFS    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/Binary%20Tree/94.Binary%20Tree%20Inorder%20Traversal) |
-| 145  | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Hard     |   DFS    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/Binary%20Tree/145.Binary%20Tree%20Postorder%20Traversal) |
-| 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/) | Easy       | DFS                        | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/Binary%20Tree/797.All%20Paths%20From%20Source%20to%20Target) |
+| No.  | Problem | Difficulty | Algorithm | Solution |
+| ---- | ------- | ---------- | --------- | -------- |
+| 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](144.Binary%20Tree%20Preorder%20Traversal) |
+| 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](144.Binary%20Tree%20Preorder%20Traversal) |
+| 94   | Binary Tree Inorder Traversal | Medium | DFS | [Note here](94.Binary%20Tree%20Inorder%20Traversal) |
+| 145  | Binary Tree Postorder Traversal) | Hard | DFS | [Note here](145.Binary%20Tree%20Postorder%20Traversal) |
+| 797  | All Paths From Source to Target | Easy | DFS | [Note here](797.All%20Paths%20From%20Source%20to%20Target) |
 
 
 ## 遍历方式：
