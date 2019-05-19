@@ -33,11 +33,15 @@
 | 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy     |   String    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/14.Longest%20Common%20Prefix) |
 | 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy     |   String    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/58.Length%20of%20Last%20Word) |
 | 151  | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium     |   String    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/151.Reverse%20Words%20in%20a%20String) |
-| 144  | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Medium     |   Binary Tree    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/144.Binary%20Tree%20Preorder%20Traversal) |
-| 94  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Medium     |   Binary Tree    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/94.Binary%20Tree%20Inorder%20Traversal) |
-| 145  | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Hard     |   Binary Tree    | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/145.Binary%20Tree%20Postorder%20Traversal) |
-| 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/) | Easy       | DFS                        | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/797.All%20Paths%20From%20Source%20to%20Target) |
 | 861  | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium     | Bit Computing ( ^ and << ) | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/861.Score%20After%20Flipping%20Matrix) |
 | 921  | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium     | Stack                      | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/921.Minimum%20Add%20to%20Make%20Parentheses%20Valid) |
 | 929  | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Medium     |                            | [Note here](https://github.com/objchris/LeetCodePearl/tree/master/929.Unique%20Email%20Addresses) |
 
+## [Binary Tree](Binary%20Tree)
+| No.  | Problem | Difficulty | Algorithm | Solution |
+| ---- | ------- | ---------- | --------- | -------- |
+| 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](Binary%20Tree/102.Binary%20Tree%20Level%20Order%20Traversal) |
+| 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](Binary%20Tree/144.Binary%20Tree%20Preorder%20Traversal) |
+| 94   | Binary Tree Inorder Traversal | Medium | DFS | [Note here](Binary%20Tree/94.Binary%20Tree%20Inorder%20Traversal) |
+| 145  | Binary Tree Postorder Traversal | Hard | DFS | [Note here](Binary%20Tree/145.Binary%20Tree%20Postorder%20Traversal) |
+| 797  | All Paths From Source to Target | Easy | DFS | [Note here](Binary%20Tree/797.All%20Paths%20From%20Source%20to%20Target) |
