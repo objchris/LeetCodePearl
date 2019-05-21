@@ -4,11 +4,13 @@
 
 | No.  | Problem | Difficulty | Algorithm | Solution |
 | ---- | ------- | ---------- | --------- | -------- |
-| 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](144.Binary%20Tree%20Preorder%20Traversal) |
-| 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](144.Binary%20Tree%20Preorder%20Traversal) |
-| 94   | Binary Tree Inorder Traversal | Medium | DFS | [Note here](94.Binary%20Tree%20Inorder%20Traversal) |
-| 145  | Binary Tree Postorder Traversal) | Hard | DFS | [Note here](145.Binary%20Tree%20Postorder%20Traversal) |
+| 101  | Symmetric Tree | Easy | BFS | [Note here](101.Symmetric%20Tree) |
+| 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](#%E5%B9%BF%E5%BA%A6%E9%81%8D%E5%8E%86-bfs) |
 | 797  | All Paths From Source to Target | Easy | DFS | [Note here](797.All%20Paths%20From%20Source%20to%20Target) |
+| 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](#%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86) |
+| 94   | Binary Tree Inorder Traversal | Medium | DFS | [Note here](#%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86) |
+| 145  | Binary Tree Postorder Traversal | Hard | DFS | [Note here](#%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86) |
+
 
 
 ## 遍历方式：
@@ -266,6 +268,7 @@ class Solution_Iteratively:
         right_depth = maximum_depth(root.right)
         return max(left_depth, right_depth) + 1;
     ```
+    见 [LeetCode.101.Symmetric Tree](101.Symmetric%20Tree)
 
 在遇到树的问题时，往往可以使用递归的方式解决，但是如何递归却是很难找到答案的。
 
