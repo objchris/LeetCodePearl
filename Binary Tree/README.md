@@ -6,6 +6,7 @@
 | ---- | ------- | ---------- | --------- | -------- |
 | 101  | Symmetric Tree | Easy | Binary Tree | [Note here](101.Symmetric%20Tree) |
 | 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](#%E5%B9%BF%E5%BA%A6%E9%81%8D%E5%8E%86-bfs) |
+| 112  | Path Sum | Easy | Binary Tree | [Note here](112.Path%20Sum) |
 | 797  | All Paths From Source to Target | Easy | DFS | [Note here](797.All%20Paths%20From%20Source%20to%20Target) |
 | 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](#%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86) |
 | 94   | Binary Tree Inorder Traversal | Medium | DFS | [Note here](#%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86) |
