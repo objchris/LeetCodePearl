@@ -4,7 +4,7 @@
 
 | No.  | Problem | Difficulty | Algorithm | Solution |
 | ---- | ------- | ---------- | --------- | -------- |
-| 101  | Symmetric Tree | Easy | BFS | [Note here](101.Symmetric%20Tree) |
+| 101  | Symmetric Tree | Easy | Binary Tree | [Note here](101.Symmetric%20Tree) |
 | 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](#%E5%B9%BF%E5%BA%A6%E9%81%8D%E5%8E%86-bfs) |
 | 797  | All Paths From Source to Target | Easy | DFS | [Note here](797.All%20Paths%20From%20Source%20to%20Target) |
 | 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](#%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86) |

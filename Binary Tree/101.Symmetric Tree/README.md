@@ -1,11 +1,10 @@
-# 94. Binary Tree Inorder Traversal
+# 101. Symmetric Tree
 
 分类： Binary Tree
 
 难易程度： Easy 
 
 [题目地址](https://leetcode.com/problems/symmetric-tree/)
-
 
 题目大意如下：给定一棵二叉树，判断是否以 Y 轴对称，如：
 
