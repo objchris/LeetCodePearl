@@ -40,8 +40,11 @@
 ## [Binary Tree](Binary%20Tree)
 | No.  | Problem | Difficulty | Algorithm | Solution |
 | ---- | ------- | ---------- | --------- | -------- |
-| 102  | Binary Tree Level Order Traversal | Medium | BFS | [Note here](Binary%20Tree/102.Binary%20Tree%20Level%20Order%20Traversal) |
-| 144  | Binary Tree Preorder Traversal | Medium | DFS | [Note here](Binary%20Tree/144.Binary%20Tree%20Preorder%20Traversal) |
-| 94   | Binary Tree Inorder Traversal | Medium | DFS | [Note here](Binary%20Tree/94.Binary%20Tree%20Inorder%20Traversal) |
-| 145  | Binary Tree Postorder Traversal | Hard | DFS | [Note here](Binary%20Tree/145.Binary%20Tree%20Postorder%20Traversal) |
+| 101  | Symmetric Tree | Easy | Binary Tree | [对称的树](Binary%20Tree/101.Symmetric%20Tree) |
+| 102  | Binary Tree Level Order Traversal | Medium | BFS | [广度遍历](Binary%20Tree/#%E5%B9%BF%E5%BA%A6%E9%81%8D%E5%8E%86-bfs) |
+| 112  | Path Sum | Easy | Binary Tree | [Note here](Binary%20Tree/112.Path%20Sum) |
 | 797  | All Paths From Source to Target | Easy | DFS | [Note here](Binary%20Tree/797.All%20Paths%20From%20Source%20to%20Target) |
+| 106  | Construct Binary Tree from Inorder and Postorder Traversal | Medium | DFS | [中序和后序建树](Binary%20Tree/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal) |
+| 144  | Binary Tree Preorder Traversal | Medium | DFS | [前序遍历](Binary%20Tree/#%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86) |
+| 94   | Binary Tree Inorder Traversal | Medium | DFS | [中序遍历](Binary%20Tree/#%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86) |
+| 145  | Binary Tree Postorder Traversal | Hard | DFS | [后序遍历](Binary%20Tree/#%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86) |
