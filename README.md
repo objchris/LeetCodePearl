@@ -44,6 +44,7 @@
 | 102  | Binary Tree Level Order Traversal | Medium | BFS | [广度遍历](Binary%20Tree/#%E5%B9%BF%E5%BA%A6%E9%81%8D%E5%8E%86-bfs) |
 | 112  | Path Sum | Easy | Binary Tree | [Note here](Binary%20Tree/112.Path%20Sum) |
 | 797  | All Paths From Source to Target | Easy | DFS | [Note here](Binary%20Tree/797.All%20Paths%20From%20Source%20to%20Target) |
+| 105  | Construct Binary Tree from Preorder and Inorder Traversal | Medium | DFS | [前序和中序建树](Binary%20Tree/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal) |
 | 106  | Construct Binary Tree from Inorder and Postorder Traversal | Medium | DFS | [中序和后序建树](Binary%20Tree/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal) |
 | 144  | Binary Tree Preorder Traversal | Medium | DFS | [前序遍历](Binary%20Tree/#%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86) |
 | 94   | Binary Tree Inorder Traversal | Medium | DFS | [中序遍历](Binary%20Tree/#%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86) |
