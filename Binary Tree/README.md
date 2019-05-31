@@ -10,6 +10,7 @@
 | 797  | All Paths From Source to Target | Easy | DFS | [Note here](797.All%20Paths%20From%20Source%20to%20Target) |
 | 105  | Construct Binary Tree from Preorder and Inorder Traversal | Medium | DFS | [前序和中序建树](105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal) |
 | 106  | Construct Binary Tree from Inorder and Postorder Traversal | Medium | DFS | [中序和后序建树](106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal) |
+| 889  | Construct Binary Tree from Preorder and Postorder Traversal | Medium | DFS | [前序和后序建树](889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal) |
 | 144  | Binary Tree Preorder Traversal | Medium | DFS | [前序遍历](#%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86) |
 | 94   | Binary Tree Inorder Traversal | Medium | DFS | [中序遍历](#%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86) |
 | 145  | Binary Tree Postorder Traversal | Hard | DFS | [后序遍历](#%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86) |
