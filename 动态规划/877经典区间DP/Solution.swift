@@ -1,31 +1,20 @@
 // 877. Stone Game
+// https://leetcode-cn.com/problems/stone-game/
 // 关联 486
 // 动态规划 DP
+
+/*
+ piles[i]: 石头重量
+ dp[i][j]: 第 i 到 j 堆石头能赢对手的最大值，dp[i][i] = piles[i]
+ dp[i][j] = max(piles[i] - dp[i + 1][j], piles[j] - dp[i][j-1])，其中
+    1. piles[i] - dp[i + 1][j]表示：选第i块石头 - 对手从剩下的石头堆中能赢自己的石头最大值
+    2. piles[j] - dp[i][j-1]同理
+
+ */
+
 class Solution {
-    
-    // Wrong answer
-    // [3,2,10,4] expect true, but return false
-    func stoneGame_Wrong(_ piles: [Int]) -> Bool {
-        var result = Array(repeating: 0, count: 2)
-        var left = 0
-        var right = piles.count - 1
-        var counter = 0
-        while left < right {
-            if piles[left] > piles[right] {
-                result[counter % 2] += piles[left]
-                left += 1
-            } else {
-                result[counter % 2] += piles[right]
-                right -= 1
-            }
-            counter += 1
-        }
-        return result[0] > result[1]
-        
-    }
  
-    
-    func stoneGame_Correct(_ piles: [Int]) -> Bool {
+    func stoneGame(_ piles: [Int]) -> Bool {
         var dp = Array(repeating: Array(repeating: 0, count: piles.count), count: piles.count)
         for i in 0..<piles.count {
             dp[i][i] = piles[i]

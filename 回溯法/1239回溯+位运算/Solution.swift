@@ -33,9 +33,11 @@ class Solution {
             ans = max(ans, mask.nonzeroBitCount)
             return
         }
+        // 选择该字符串
         if (mask & masks[pos]) == 0 {
             backtrack(pos: pos + 1, mask: mask | masks[pos])
         }
+        // 不选该字符串
         backtrack(pos: pos + 1, mask: mask)
     }
     
