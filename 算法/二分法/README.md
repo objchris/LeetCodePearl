@@ -11,10 +11,10 @@ var left = 0
 var right = arr.count - 1
 while left <= right {
     let mid = (left + right) / 2
-    if arr[mid] == somethingFinding {
+    if arr[mid] == target {
         return mid
     }
-    if arr[mid] > somethingFinding {
+    if arr[mid] > target {
         right = mid - 1
     } else {
         left = mid + 1
@@ -22,3 +22,12 @@ while left <= right {
 }
 return notFound
 ```
+上述代码在寻找单一元素下标时是通用。
+
+一般来说，二分的时间复杂度是 O(logn)
+
+| 题目 | 解题代码 |
+| ----- | ---------- |
+| [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Swift代码](33\346\220\234\347\264\242\346\227\213\350\275\254\346\216\222\345\272\217\346\225\260\347\273\204/Solution.swift) |
+| [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Swift代码](34\346\216\222\345\272\217\346\225\260\347\273\204\346\237\245\346\211\276\347\233\256\346\240\207\346\211\200\345\234\250\345\214\272\351\227\264/Solution.swift) |
+| [274.H指数](https://leetcode-cn.com/problems/h-index/) | [Swift代码](274H指数/Solution.swift) |
