@@ -28,6 +28,11 @@ return notFound
 
 | 题目 | 解题代码 |
 | ----- | ---------- |
-| [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Swift代码](33\346\220\234\347\264\242\346\227\213\350\275\254\346\216\222\345\272\217\346\225\260\347\273\204/Solution.swift) |
-| [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Swift代码](34\346\216\222\345\272\217\346\225\260\347\273\204\346\237\245\346\211\276\347\233\256\346\240\207\346\211\200\345\234\250\345\214\272\351\227\264/Solution.swift) |
+| [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Swift代码](33搜索旋转排序数组/Solution.swift) |
+| [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Swift代码](34排序数组查找目标所在区间/Solution.swift) |
+| [35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Swift代码](35搜索插入位置/Solution.swift) |
+| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Swift代码](74搜索二维矩阵/Solution.swift) |
 | [274.H指数](https://leetcode-cn.com/problems/h-index/) | [Swift代码](274H指数/Solution.swift) |
+| [275.H指数2]( https://leetcode-cn.com/problems/h-index-ii/) | [Swift代码](275H指数2/Solution.swift) |
+| [852.二分极值](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/) | [Swift代码](852二分极值/Solution.swift) |
+| [981.基于时间的键值存储](https://leetcode-cn.com/problems/time-based-key-value-store/) | [Swift代码](981基于时间的键值存储/Solution.swift) |
