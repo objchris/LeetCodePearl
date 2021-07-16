@@ -30,6 +30,7 @@ return notFound
 | ----- | ---------- |
 | [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Swift代码](33搜索旋转排序数组/Solution.swift) |
 | [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Swift代码](34排序数组查找目标所在区间/Solution.swift) |
+| [剑指Offer53-I.在排序数组中查找数字I(同34)](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | [Swift代码](剑指Offer53-I.在排序数组中查找数字I/Solution.swift) |
 | [35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Swift代码](35搜索插入位置/Solution.swift) |
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Swift代码](74搜索二维矩阵/Solution.swift) |
 | [274.H指数](https://leetcode-cn.com/problems/h-index/) | [Swift代码](274H指数/Solution.swift) |
