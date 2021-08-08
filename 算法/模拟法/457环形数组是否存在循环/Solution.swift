@@ -4,35 +4,47 @@
  
  */
 class Solution {
-    // O(n), O(n)
+
     func circularArrayLoop(_ nums: [Int]) -> Bool {
 
-        let n = nums.count
-        var loop = [Int: Int]() // visited indices : next indices
-        var start = 0
-        var i = 0
-        while true {
-            if loop[i] != nil {
-                // 回到可能为循环的起始点
-                start = i
-                break
-            }
-            let next = (i + nums[i] + n) % n
-            loop[i] = next
-            i = next
-        }
+        var `nums` = nums
+        for i in nums.indices where nums[i] != 0 {
+            var slow = i
+            var fast = next(nums, i)
 
-        var count = 1
-        var pos = nums[start] > 0
-        var cur = (start + nums[start] + n) % n
-        while cur != start {
-            if (nums[cur] > 0) != pos {
-                return false
+            while nums[slow] * nums[fast] > 0 && nums[slow] * nums[next(nums, fast)] > 0 {
+                if slow == fast {
+                    // 判断是否在同一个位置上成环
+                    if slow != next(nums, slow) {
+                        return true
+                    }
+                    break
+                }
+                slow = next(nums, slow)
+                fast = next(nums, next(nums, fast))
             }
-            count += 1
-            cur = (cur + nums[cur] + n) % n
+
+            var add = i
+            while nums[add] * nums[next(nums, add)] > 0 {
+                let temp = add
+                add = next(nums, add)
+                nums[temp] = 0
+            }
+
         }
-        return count > 1
+        return false
 
     }
+
+    func next(_ nums: [Int], _ cur: Int) -> Int {
+        let n = nums.count
+        //  cur + nums[cur] + n 可能为负数，负数取余为负，会数组下标越界
+        // 因此 (cur + nums[cur]) 先取余，再加 n 可保证为正
+        return ((cur + nums[cur]) % n + n) % n
+    }
+
 }
+
+let s = Solution()
+s.circularArrayLoop([2,-1,1,2,2])
+
