@@ -16,14 +16,14 @@ class Solution {
 			return (mask, count)
 		}
 		let n = newWords.count
-        var ans = 0
-        for i in 0..<n - 1 {
-            for j in i..<n {
-                if (newWords[i].0 & newWords[j].0) == 0 {
-                    ans = max(ans, newWords[i].1 * newWords[j].1)
-                }
-            }
-        }
-        return ans
+		var ans = 0
+		for i in 0..<n - 1 {
+			for j in i..<n {
+				if (newWords[i].0 & newWords[j].0) == 0 {
+					ans = max(ans, newWords[i].1 * newWords[j].1)
+				}
+			}
+		}
+		return ans
     }
 }
