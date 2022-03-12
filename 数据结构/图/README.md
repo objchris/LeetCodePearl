@@ -6,7 +6,7 @@
 使用二维矩阵进行存图。适用于稠密图（边数量接近点的数量的平方）
 ``` swift
 let N = 1000 // 已知的节点数
-var graph = [[Int]](repeating: [Int]{repeating: 0, count: N), count: n)
+var graph = [[Int]](repeating: [Int]{repeating: 0, count: N), count: N)
 
 func add(_ a: Int, _ b: Int, _ w: Int) {
     graph[a][b] = w // 代表从 a 到 b 有权重为 w 的边
@@ -53,8 +53,42 @@ while i != -1 {
 ```
 
 ## 图算法
+### dijkstra
+dijkstra 适用于加权图中前往 X 点的最短路径。**只适用于有向无环且没有负权边的图**。      
+dijkstra 的思路如下：
+1. 判断是否还有要处理的节点
+2. 获取离终点最短距离的点
+3. 更新其邻居「离终点的距离」
+4. 将该节点标记为处理过，回到第一步
 
+[例子 - 743.网络延迟时间](https://github.com/objchris/LeetCodePearl/blob/master/数据结构/图/743网络延迟时间/Solution.swift)
 
+``` swift
+let N = 1000 // 最大节点数
+let n = 50   // 已知数据节点数
+
+var graph = [[Int]](repeating: [Int](repeating: , count: N), count: N) // 邻接矩阵存图
+var dist  = [Int](repeating: 0, count: N)
+var vis   = [Bool](repeating: false, count: N)
+
+func dijkstra(_ start: Int) {
+    dist[start] = 0
+    for _ in 0..<n {    
+        // 每次都会遍历一个点，所以共需要遍历 n 次
+        var t = -1
+        for i in 0..<n where !vis[i] {
+            // 每次找「未遍历过」且「最短距离最小」的点
+            if t == -1 || dist[t] < dist[i] { t = i }
+        }
+        // 标记为已遍历
+        vis[t] = true
+        for i in 0..<n {
+            // 用点 t 的「最小距离」更新其他点
+            dist[i] = min(dist[i], dist[t] + graph[t][i])
+        }
+    }
+}
+```
 
 ## 参考
 1.[【最短路/必背模板】涵盖所有的「存图方式」与「最短路算法（详尽注释）」](https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247488007&idx=1&sn=9d0dcfdf475168d26a5a4bd6fcd3505d&chksm=fd9cb918caeb300e1c8844583db5c5318a89e60d8d552747ff8c2256910d32acd9013c93058f&mpshare=1&scene=23&srcid=0311tjKy74JijYzXhHo8Qob7&sharer_sharetime=1646964421353&sharer_shareid=1221771780968b30ef07c3f22cd356ed%23rd)
